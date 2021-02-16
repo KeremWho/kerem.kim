@@ -1,0 +1,29 @@
+@font-face { font-family: "Pixellari"; src: url(../fonts/Pixellari.ttf) format("truetype"); }
+* { user-select: none; }
+
+body { background-image: url(https://upload.kerem.kim/TJrMIo.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
+
+.kim-container { display: flex; justify-content: center; flex-direction: column; align-items: center; }
+.kim-container .keremwho { font-family: "Pixellari"; font-weight: 800; font-size: 10vw; background: -webkit-linear-gradient(to right, #00c6ff, #0072ff); background: linear-gradient(to right, #00c6ff, #0072ff); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: lowercase; }
+
+section.contact { padding: 30px; width: 100%; }
+section.contact div { display: flex; align-items: center; justify-content: center; position: relative; min-height: 50px; }
+section.contact div span { background: linear-gradient(to right, #00c6ff, #0072ff); text-align: center; width: 100%; font-size: 1.5em; padding: 20px 40px; color: white; margin: 0 16px; font-family: "Pixellari"; }
+section.contact div span a { color: white; text-decoration: underline; transition: all .1s ease-in-out; }
+section.contact div span a:hover { text-decoration: underline wavy; }
+section.contact div::before, section.contact div::after { content: ""; position: absolute; display: block; height: calc(100% - 20px); width: 16px; background: red; }
+section.contact div::before { left: 0; background: #00c6ff; }
+section.contact div::after { background: #0072ff; right: 0; }
+
+.social-media-buttons { list-style: none; }
+.social-media-buttons li { display: inline-flex; justify-content: center; text-align: center; }
+.social-media-buttons li a { width: 64px; height: 64px; font-size: 32px; border-radius: 100%; padding: 5px; color: #00c6ff; border: 1px solid #00c6ff; transition: all .1s ease-in-out; }
+.social-media-buttons li a:hover { color: #0072ff; border: 1px solid #0072ff; }
+
+html, body { height: 100%; width: 100%; }
+
+html { display: table; margin: auto; }
+
+body { display: table-cell; vertical-align: middle; }
+
+/*# sourceMappingURL=style.css.map */

@@ -12,27 +12,24 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Pixellari' !important;
 }
 
-.kim-container {
+.keremwho {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  .keremwho {
-    font-family: "Pixellari";
-    font-weight: 800;
-    font-size: 10vw;
-    background: -webkit-linear-gradient(to right, #00c6ff, #0072ff);
-    background: linear-gradient(to right, #00c6ff, #0072ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: lowercase;
-  }
+  font-family: 'Pixellari';
+  font-weight: 800;
+  font-size: 10vw;
+  background: -webkit-linear-gradient(to right, #00c6ff, #0072ff);
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: lowercase;
 }
 
-section.contact {
+.contact-bar {
   padding: 30px;
   width: 100%;
   div {
@@ -79,6 +76,88 @@ section.contact {
   }
 }
 
+.scroll-icon {
+  text-align: center;
+}
+
+#fp-nav ul li a span {
+  background: #00c6ff
+}
+
+.titlewho {
+  font-family: 'Pixellari';
+  background: -webkit-linear-gradient(to right, #00c6ff, #0072ff);
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#deneyim {
+  ul {
+    list-style: none;
+    list-style-position: outside;
+  }
+}
+
+.resume-items {
+  .resume-item {
+    position: relative;
+    padding: 15px 0;
+    &.active {
+      .date {
+        border-color: #00c6ff;
+        color: #00c6ff
+      }
+    }
+    .image {
+      margin-left: 15px;
+      position: relative;
+      width: 80px;
+      height: 80px;
+      float: left;
+      display: flex;
+      align-items: center;
+      font-size: 0;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+      }
+    }
+    .date {
+      margin: 0 0 5px 0;
+      padding: 0 5px;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 13px;
+      line-height: 18px;
+      color: #ccc;
+      font-weight: 400;
+      border: 1px solid #eeeeee;
+    }
+    .name {
+      margin: 0;
+      font-size: 17px;
+      color: #fff;
+      font-weight: 500;
+    }
+    .company {
+      margin: 0 0 11px 0;
+      font-size: 14px;
+      color: #999999;
+      font-weight: 400;
+    }
+  }
+}
+
+.bg-who {
+  background: -webkit-linear-gradient(to right, #00c6ff, #0072ff);
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #313131 !important;
+}
+
 .social-media-buttons {
   list-style: none;
   li {
@@ -92,27 +171,10 @@ section.contact {
       border-radius: 100%;
       padding: 5px;
       color: #00c6ff;
-      border: 1px solid#00c6ff;
       transition: all .1s ease-in-out;
       &:hover {
         color: #0072ff;
-        border: 1px solid #0072ff
       }
     } 
   }
-}
-
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-html {
-  display: table;
-  margin: auto;
-}
-
-body {
-  display: table-cell;
-  vertical-align: middle;
 }
