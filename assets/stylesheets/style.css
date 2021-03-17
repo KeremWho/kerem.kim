@@ -1,7 +1,7 @@
 @font-face { font-family: "Pixellari"; src: url(../fonts/Pixellari.ttf) format("truetype"); }
 * { user-select: none; }
 
-body { background-image: url(https://upload.kerem.kim/TJrMIo.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; font-family: 'Pixellari' !important; }
+body { background-image: url(../images/bg-tile.jpg); box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8); background-size: 500px; background-repeat: repeat; background-attachment: fixed; font-family: 'Pixellari' !important; }
 
 .keremwho { display: flex; justify-content: center; font-family: 'Pixellari'; font-weight: 800; font-size: 10vw; background: -webkit-linear-gradient(to right, #00c6ff, #0072ff); background: linear-gradient(to right, #00c6ff, #0072ff); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: lowercase; }
 
@@ -24,7 +24,7 @@ body { background-image: url(https://upload.kerem.kim/TJrMIo.jpg); background-si
 
 .resume-items .resume-item { position: relative; padding: 15px 0; }
 .resume-items .resume-item.active .date { border-color: #00c6ff; color: #00c6ff; }
-.resume-items .resume-item .image { margin-left: 15px; position: relative; width: 80px; height: 80px; float: left; display: flex; align-items: center; font-size: 0; }
+.resume-items .resume-item .image { margin-left: 15px; position: relative; width: 80px; height: 80px; float: left; display: flex; align-items: center; font-size: 0; padding-right: 15px; }
 .resume-items .resume-item .image img { max-width: 100%; max-height: 100%; height: auto; }
 .resume-items .resume-item .date { margin: 0 0 5px 0; padding: 0 5px; position: relative; display: inline-block; vertical-align: top; font-size: 13px; line-height: 18px; color: #ccc; font-weight: 400; border: 1px solid #eeeeee; }
 .resume-items .resume-item .name { margin: 0; font-size: 17px; color: #fff; font-weight: 500; }
