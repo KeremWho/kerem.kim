@@ -3,6 +3,8 @@
   src: url(../fonts/Pixellari.ttf) format("truetype");
 }
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
 * {
   user-select: none;
 }
@@ -13,13 +15,13 @@ body {
   background-size: 500px;
   background-repeat: repeat;
   background-attachment: fixed;
-  font-family: 'Pixellari' !important;
+  font-family: "Pixellari" !important;
 }
 
 .keremwho {
   display: flex;
   justify-content: center;
-  font-family: 'Pixellari';
+  font-family: "Pixellari";
   font-weight: 800;
   font-size: 10vw;
   background: -webkit-linear-gradient(to right, #00c6ff, #0072ff);
@@ -51,7 +53,7 @@ body {
       a {
         color: white;
         text-decoration: underline;
-        transition: all .1s ease-in-out;
+        transition: all 0.1s ease-in-out;
         &:hover {
           text-decoration: underline wavy;
         }
@@ -82,11 +84,11 @@ body {
 }
 
 #fp-nav ul li a span {
-  background: #00c6ff
+  background: #00c6ff;
 }
 
 .titlewho {
-  font-family: 'Pixellari';
+  font-family: "Pixellari";
   background: -webkit-linear-gradient(to right, #00c6ff, #0072ff);
   background: linear-gradient(to right, #00c6ff, #0072ff);
   background-clip: text;
@@ -108,7 +110,7 @@ body {
     &.active {
       .date {
         border-color: #00c6ff;
-        color: #00c6ff
+        color: #00c6ff;
       }
     }
     .image {
@@ -180,10 +182,10 @@ body {
       border-radius: 100%;
       padding: 5px;
       color: #00c6ff;
-      transition: all .1s ease-in-out;
+      transition: all 0.1s ease-in-out;
       &:hover {
         color: #0072ff;
       }
-    } 
+    }
   }
 }
